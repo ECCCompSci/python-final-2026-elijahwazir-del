@@ -1,8 +1,8 @@
 # 📝 Project Planning Worksheet
 
-**Name:** ___________________________  
-**Date:** ___________________________  
-**Project Title:** ___________________________
+**Name:** Elijah Wazir  
+**Date:** 5/7/2026  
+**Project Title:** RANDOM WACKY QUIZ
 
 ---
 
@@ -10,7 +10,7 @@
 
 *Write 2–3 sentences describing your project. What happens when the user runs it? What will they see or do?*
 
-> 
+> this quiz is just a bunch of random questions that have no connection whatsoever. i just wanted too get done.
 
 ---
 
@@ -18,9 +18,9 @@
 
 *List every `input()` question you plan to use.*
 
-1. 
-2. 
-3. 
+1. question
+2. name
+3.yes
 
 ---
 
@@ -30,8 +30,8 @@
 
 | Variable Name | What It Stores | Data Type |
 |---------------|---------------|-----------|
-| | | |
-| | | |
+yes how many times you answered yes int |
+Name. the inputed name. | |
 | | | |
 | | | |
 
@@ -41,9 +41,13 @@
 
 *Describe each `if/elif/else` check your program will use.*
 
-- If _________________________, then print _________________________
-- Elif _________________________, then print _________________________
-- Else print _________________________
+question = input("Did you wake up today?: ")
+if question == "yes":
+    print("Good for you")
+elif question == "no":
+    print("How are you here then")
+else:
+    print("Thats not a valid answer")
 
 *(Add more rows if needed.)*
 
@@ -54,7 +58,8 @@
 *Write out what a sample run of your program might look like. Pretend you are the user.*
 
 ```
-Program output here...
-User types: 
-Program responds: 
-```
+Program output here...whats your name
+User types: player
+Program responds:
+print("Welcome!")
+print(name)
